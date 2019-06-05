@@ -23,10 +23,10 @@ for _ in itertools.repeat(None, 100):
     toUser_object = accounts.items()[toUser_index]
     toUser = toUser_object[0]
     amount = str(random.randint(3, 7654))
-    password = "randomWHASSUP12!@" 
+    password = "randomWHASSUP12!@"
 
     hit_me.loginAsUser(username, password)
     hit_me.makeTransfer(username, toUser, amount)
-    hit_me.accountSummary(username)
-    hit_me.help()
+    # hit_me.accountSummary(username)
+    # hit_me.help()
     hit_me.logoutAsUser(username)
