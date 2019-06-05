@@ -1,0 +1,58 @@
+{
+  "jack": {
+    "name": "John Doe",
+    "balance": 10000000,
+    "transactions": [
+      { "type": "from", "who": "Big Mama Doe", "amount": 100 }
+    ]
+  },
+  "martin": {
+    "name": "John Doe",
+    "balance": 10000000,
+    "transactions": [
+      { "type": "from", "who": "Big Mama Doe", "amount": 100 }
+    ]
+  },
+  "suzanne": {
+    "name": "John Doe",
+    "balance": 10000000,
+    "transactions": [
+      { "type": "from", "who": "Big Mama Doe", "amount": 100 }
+    ]
+  },
+  "susan": {
+    "name": "John Doe",
+    "balance": 10000000,
+    "transactions": [
+      { "type": "from", "who": "Big Mama Doe", "amount": 100 }
+    ]
+  },
+  "prashant": {
+    "name": "John Doe",
+    "balance": 10000000,
+    "transactions": [
+      { "type": "from", "who": "Big Mama Doe", "amount": 100 }
+    ]
+  },
+  "ilia": {
+    "name": "John Doe",
+    "balance": 10000000,
+    "transactions": [
+      { "type": "from", "who": "Big Mama Doe", "amount": 100 }
+    ]
+  },
+  "amol": {
+    "name": "John Doe",
+    "balance": 10000000,
+    "transactions": [
+      { "type": "from", "who": "Big Mama Doe", "amount": 100 }
+    ]
+  },
+  "renata": {
+    "name": "John Doe",
+    "balance": 10000000,
+    "transactions": [
+      { "type": "from", "who": "Big Mama Doe", "amount": 100 }
+    ]
+  }
+}
