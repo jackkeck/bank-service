@@ -15,7 +15,7 @@ import user_db
 
 logger = structlog.get_logger()
 bank_service = Flask(__name__)
-api = Api(bank_service, version='1.0', title='Bank Service API', description='A Sample Banking API') 
+api = Api(bank_service, version='1.0', title='Bank Service API', description='A Sample Banking API')
 
 with open('config/users.json') as users_file:
     accounts = json.load(users_file)
@@ -147,4 +147,4 @@ if __name__ == '__main__':
         format="%(message)s", stream=sys.stdout, level=logging.DEBUG
     )
     structlog.configure(processors=[structlog.processors.KeyValueRenderer()])
-    bank_service.run(host="127.0.0.1",port=5000)
+    bank_service.run(host='0.0.0.0', port=80)
