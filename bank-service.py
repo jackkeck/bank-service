@@ -15,7 +15,7 @@ import user_db
 
 logger = structlog.get_logger()
 bank_service = Flask(__name__)
-api = Api(bank_service, version='1.0', title='Bank Service API', description='A Sample Banking API') Í
+api = Api(bank_service, version='1.0', title='Bank Service API', description='A Sample Banking API') 
 
 with open('config/users.json') as users_file:
     accounts = json.load(users_file)
