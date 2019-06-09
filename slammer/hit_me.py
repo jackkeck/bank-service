@@ -22,7 +22,6 @@ def accountSummary(username):
     response = requests.post(url, headers=headers, json=data)
     print ("accountSummary("+str(username)+") returns: "+str(response.text))
 
-
 def help():
     url = 'http://127.0.0.1:5000/api/v1/help'
     response = requests.get(url)
