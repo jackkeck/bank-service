@@ -1,5 +1,5 @@
 structlog==19.1.0
 requests==2.22.0
 flask_restplus==0.12.1
-Flask==1.0.3
+Flask==2.3.2
 Flask_API==1.1
